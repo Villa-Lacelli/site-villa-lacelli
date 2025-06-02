@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Header */
+
+.hdr {
+    display: flex;
+    flex-direction: row;
+    background-color: #EEE8CE;
+    width: 100%;
+    align-items: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+    & .linha {
+        height: 40px;
+        border: 2px solid #202F8D;
+        margin-left: 40px;
+        margin-right: 20px;
+        border-radius: 100vh;
+    }
+
+    & .hdr1 {
+        & img{
+            width: 150px;
+        }
+    }
+
+    & .hdr2{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 10vh;
+        gap: 100vh;
+
+        & .btns {
+            color: #202F8D;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 5vh;
+            list-style-type: none;
+            text-decoration: none;
+            
+            & a{
+                overflow:hidden;
+                position: relative;
+                
+            } 
+
+            & a:before {
+                content: "";
+                position: absolute;
+                width: 0px;
+                background : #202F8D;
+                left: 45%;
+                height: 2px;
+                bottom: 0px;
+                transition: all .3s;
+            }
+
+            & a:hover:before {
+                width: 100%;
+                left: 0;   
+            }
+
+            & a:visited {
+                color: #202F8D;
+            }
+        }
+
+        & .pesquisa{
+            width: 200px;
+            height: 30px;
+            border: 2px dashed #202f8d;
+            border-radius: 20px;
+        }
+    }
+}
+
+/* main */
+
+main {
+    width: 100%;
+    height: 100%;
+
+    & main1 {
+        background-image: url("../Elementos_Graficos/torta-de-ovo-em-madeira\ 1.png");
+        width: 100%;
+        height: 100vh;
+    }
+}
