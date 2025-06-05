@@ -572,6 +572,42 @@ main {
                 }
         }
     }
+    main {
+        .container1 {
+            align-items: center;
+            justify-content: center;
+
+            & .banner_1 {
+                width: 85vw;
+            }
+        }
+
+        .container2 {
+            & .hdr_container2 {
+                
+                & .hdr1_container2 {
+
+                    & img {
+                        width: 8vw;
+                        height: 8vh;
+                    }
+
+                    & h1 {
+                        font-size: 18px;
+                    }
+                }
+
+                & .hdr2_container2 {
+
+                    & img {
+                        height: 4vh;
+                    }
+                }
+        }
+
+        
+
+    }
 }
 
 /* Smartphones médios (até 768px) */
