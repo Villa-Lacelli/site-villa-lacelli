@@ -107,7 +107,7 @@ main {
         display: flex;
         height: 80vh;
         width: 100%;
-        background-image: url(../Elementos_Graficos/torta-de-ovo-em-madeira\ 1.png);
+        background-image: url('../assets/Elementos_Graficos/torta-de-ovo-em-madeira 1.png');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -195,7 +195,7 @@ main {
             flex-direction: row;
             width: 100%;
             height: 85vh;
-            background-image: url(../Elementos_Graficos/fundo.png);
+            background-image: url('../assets/Elementos_Graficos/fundo.png');
             background-size: 100% 85vh;
             background-repeat: no-repeat;
             justify-content: space-around;
@@ -220,7 +220,7 @@ main {
             }
 
             & .salgados_fritos {
-                background-image: url(../Produtos/fritos.png);
+                background-image: url('../assets/Produtos/fritos.png');
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -228,7 +228,7 @@ main {
             }
 
             & .salgados_assados {
-                background-image: url(../Produtos/empadinha.png);
+                background-image: url('../assets/Produtos/empadinha.png');
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -236,7 +236,7 @@ main {
             }
 
             & .doces {
-                background-image: url(../Produtos/doce.png);
+                background-image: url('../assets/Produtos/doce.png');
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -244,7 +244,7 @@ main {
             }
 
             & .paes {
-                background-image: url(../Produtos/pao.png);
+                background-image: url('../assets/Produtos/pao.png');
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
