@@ -1,50 +1,150 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villa Lacelli</title>
-    <link rel="stylesheet" href="src/style.css">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
-    <header>  <!-- PARA COMEÇAR DO ZERO REMOVA A PARTIR DAQUI -->
-        <div class="hdr">
-            <div class="hdr1">
-                <img src="assets/logo-azul.png" alt="" class="logo_letra_azul">
-            </div>
-            <div class="linha"></div>
-            <div class="hdr2">
-                <ul class="btns">
-                    <li><a href="" class="btn_produto">Produtos</a></li>
-                    <li><a href="" class="btn_sobre">Sobre nós</a></li>
-                    <li><a href="" class="btn_contato">Contato</a></li>
-                </ul>
-                <input type="text" class="pesquisa">
-            </div>
+    <header>
+        <div class="hdr_1">
+            <img src="../Logotipos/logo_letra_azul.png" alt="" class="logo_text_azul">
+            <div class="linha_vertical"></div>
+            <ul class="btns">
+                <li class="btn_produto"><a href="#scroll_produtos">Produtos</a></li>
+                <li class="btn_sobre"><a href="#scroll_sobre">Sobre nós</a></li>
+                <li class="btn_contato"><a href="#scroll_contato">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="hdr_2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg>
+            <input type="text" class="pesquisa" placeholder="Pesquise aqui...">
         </div>
     </header>
     <main>
-        <div class="main1">
-            <img src="assets/element-02.png" alt="">
+        <!-- Container 1  / banner-->
+        <div class="container1">
+            <img src="../Elementos_Graficos/banner_1.png" alt="" class="banner_1">
         </div>
-    </main>    <!-- ATÉ AQUI -->
+
+        <!-- Container 2 / produtos-->
+        <div class="container2" id="scroll_produtos">
+
+            <!-- Header do container / produtos-->
+            <div class="hdr_container2">
+                <div class="hdr1_container2">
+                    <img src="../Logotipos/circle_coracao.svg" alt="" class="circle_coracao">
+                    <h1>Nossos queridinhos</h1>
+                </div>
+                <div class="hdr2_container2">
+                    <div class="linha_vertical2"></div>
+                    <img src="../Logotipos/logo_letra_branca.png" alt="" class="logo_text_branco">
+                </div>
+            </div>
+
+            <!-- Main do container / produtos -->
+            <div class="main_container2">
+
+                <!-- Produtos -->
+                <a href="">
+                    <div class="salgados_fritos">
+                        <h1>Salgados fritos</h1>
+                    </div>
+                </a> 
+                <a href="">
+                    <div class="salgados_assados">
+                        <h1>Salgados assados</h1>
+                    </div>
+                </a> 
+                <a href="">
+                    <div class="doces">
+                        <h1>Doces</h1>
+                    </div>
+                </a> 
+                <a href="">
+                    <div class="paes">
+                        <h1>Pães</h1>
+                    </div>
+                </a> 
+            </div>
+        </div>
+
+        <!-- Container 3 / sobre nós-->
+        <div class="container3" id="scroll_sobre">
+
+            <!-- Header do container / sobre nós -->
+            <div class="hdr_container3">
+                <div>
+                    <img src="../Logotipos/circle_duvida.svg" alt="" class="circle_coracao">
+                    <h1>Sobre nós</h1>
+                </div>
+            </div>
+
+            <!-- Main do container / sobre nós -->
+            <div class="main_container3">
+                <div class="txt_sobre">
+                    <p>
+                        Na <strong>Villa Lacelli</strong>, acreditamos que as melhores lembranças têm cheiro de pão quentinho saindo do forno e sabor de comida feita com amor. Somos uma padaria de bairro, pequena no tamanho, mas grande na vontade de acolher cada cliente como parte da nossa família.
+                    </p>
+                    <p>
+                        Desde o nosso primeiro fornada, temos um compromisso simples: oferecer produtos fresquinhos, feitos com ingredientes selecionados e aquele cuidado que só as avós têm. Nosso lema, <strong>"Com gostinho de comida de vó"</strong>, não é só uma frase, é o nosso jeito de fazer tudo, do café da manhã ao lanche da tarde.
+                    </p>
+                    <p>
+                        Aqui, cada pão, bolo e quitute carrega um pedacinho da nossa história, feita de tradição, carinho e dedicação. Seja para começar bem o dia, reencontrar os amigos ou só matar a saudade de um sabor especial, estamos de portas abertas para te receber com aquele aconchego que só a Villa Lacelli tem.
+                    </p>
+                        
+                </div>
+                <div class="img_sobre">
+                    <img src="../Logotipos/banner2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Container 4 / contato-->
+        <div class="container4" id="scroll_contato">
+            <div class="hdr_container4">
+                <div>
+                    <img src="../Logotipos/circle_contato.svg" alt="" class="circle_coracao">
+                    <h1>Contato</h1>
+                </div>
+            </div>
+            <div class="main_container4">
+                <div class="main_txt">
+                    <div class="main_loc">
+                        <div>
+                            <img src="../Logotipos/circle_loc.svg" alt="">
+                            <h1>Onde nos achar?</h1>
+                        </div>
+                        <p>
+                            Rua. Jorge Lacerda, N° 1883 - Claudete, Cascavel - PR, 85811-350
+                        </p>
+                    </div>
+                    <div class="main_contato">
+                        <div>
+                            <img src="../Logotipos/circle_message.svg" alt="">
+                            <h1>Vai uma encomenda?</h1>
+                        </div>
+                        <p>
+                            Para falar com nós, basta você entrar em contato neste número de telefone ou clique no botão a baixo:
+                        </p>
+                    </div>
+                    <div class="main_telefone">
+                        <h1 class="telefone">(44) 99999-9999</h1>
+                        <a href="">
+                            <img src="../Logotipos/whats_logo.svg" alt="">
+                            <h1>WhatsApp</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="main_message">
+                    <img src="../Logotipos/Message.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
 
     </footer>
-
 </body>
-
 </html>
