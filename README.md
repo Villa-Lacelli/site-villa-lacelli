@@ -1,36 +1,69 @@
-# site-villa-lacelli
+# 🍞 Villa Lacelli - Site Institucional
 
-Villa Lacelli
+<div align="center">
+  <img src="assets/Logotipos/logo_letra_azul.png" alt="Villa Lacelli Logo" width="300">
+  
+  **Com gostinho de comida de vó** ❤️
+  
+  ---
+  
+  *Site institucional desenvolvido para a padaria Villa Lacelli*
+</div>
 
-Nome do Projeto: Site Villa Lacelli
-Integrantes: Ana Meregali, Pedro Piske, Keslyn Bus, Henrique Reolon
+## 👥 Equipe de Desenvolvimento
 
+- **Ana Meregali**
+- **Pedro Piske** 
+- **Keslyn Bus**
+- **Henrique Reolon**
 
-1. Introdução — Villa Lacelli
-Este projeto consiste na criação de um site institucional para a padaria Villa Lacelli, um estabelecimento especializado na produção de pães artesanais, confeitaria fina e produtos de qualidade. 
-O objetivo é desenvolver uma página informativa, moderna e responsiva, que apresente o cardápio de produtos, conte a história da padaria, forneça informações de localização, horários de funcionamento e meios de contato.
-Além disso, o site visa fortalecer a presença digital da Villa Lacelli, atrair novos clientes e facilitar o relacionamento com o público, oferecendo uma vitrine online atrativa e funcional.
+---
 
-2. Objetivos — Villa Lacelli
-🎯 Objetivo Geral:
-Desenvolver um site institucional para a padaria Villa Lacelli que apresente de forma clara e atrativa seus produtos, serviços e informações, além de fortalecer a presença online da marca.
+## 📖 Sobre o Projeto
 
-🎯 Objetivos Específicos:
-Disponibilizar informações sobre o cardápio de produtos, destacando pães artesanais, bolos, doces e outras especialidades da padaria.
+A **Villa Lacelli** é uma padaria artesanal especializada em pães tradicionais, confeitaria fina e produtos de qualidade excepcional. Este projeto consiste no desenvolvimento de um site institucional moderno e responsivo que representa digitalmente os valores e a essência da marca.
 
+### 🎯 Nossa Missão
+Fortalecer a presença digital da Villa Lacelli através de uma plataforma online atrativa e funcional, conectando a tradição artesanal com a modernidade digital.
 
-Apresentar a história e valores da Villa Lacelli, reforçando a tradição e qualidade dos seus produtos.
+---
 
+## 🎯 Objetivos
 
-Fornecer dados atualizados sobre localização, horários de funcionamento e formas de contato, como telefone e redes sociais.
+### Objetivo Geral
+Desenvolver um site institucional completo que apresente de forma clara e atrativa os produtos, serviços e valores da Villa Lacelli, fortalecendo sua presença online e facilitando o relacionamento com os clientes.
 
+### Objetivos Específicos
 
-Facilitar o contato com os clientes através de um formulário online ou link direto para aplicativos de mensagens.
+- 🥖 **Catálogo Digital**: Apresentar o cardápio completo destacando pães artesanais, bolos, doces e especialidades da casa
+- 📖 **História da Marca**: Contar a trajetória e valores da Villa Lacelli, reforçando tradição e qualidade
+- 📍 **Informações Práticas**: Disponibilizar localização, horários de funcionamento e formas de contato
+- 💬 **Canal de Comunicação**: Facilitar o contato direto através de WhatsApp e formulários online
+- 📱 **Experiência Responsiva**: Garantir navegação agradável em dispositivos móveis e desktop
+- 🎯 **Visibilidade Digital**: Atrair novos clientes e fortalecer o relacionamento com os existentes
 
+---
 
-Promover uma experiência de navegação agradável e responsiva, adequada para dispositivos móveis e computadores.
+## ✨ Características do Site
 
+- **Design Responsivo**: Adaptável a todos os tipos de dispositivos
+- **Interface Intuitiva**: Navegação simples e agradável
+- **Identidade Visual Única**: Cores e elementos que refletem o aconchego da padaria
+- **Integração WhatsApp**: Contato direto e fácil com os clientes
+- **Otimização SEO**: Melhor visibilidade nos motores de busca
 
-Aumentar a visibilidade digital da Villa Lacelli, atraindo novos clientes e fidelizando os já existentes.
+---
+
+## 🏪 Sobre a Villa Lacelli
+
+Na Villa Lacelli, acreditamos que as melhores lembranças têm cheiro de pão quentinho e sabor de comida feita com amor. Somos uma padaria de bairro, pequena no tamanho, mas grande na vontade de acolher cada cliente como parte da nossa família.
+
+**"Com gostinho de comida de vó"** não é apenas nosso slogan, é nossa filosofia de trabalho - tradição, carinho e dedicação em cada produto.
+
+---
+
+<div align="center">
+  <p><em>Desenvolvido com ❤️ pela equipe Villa Lacelli, grupo 5</em></p>
+</div>
 
 
