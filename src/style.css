@@ -28,7 +28,7 @@ header {
     background-color: var(--cor-white-chocolate);
     height: 10vh;
     width: 100%;
-
+    transition: width 0.5s, height 0.5s;
 
     & .hdr_1 {
         display: flex;
@@ -67,6 +67,8 @@ header {
             & a {
                 /* background-color: rgb(255, 0, 0); */
                 font-size: large;
+                color: var(--cor-cosmic-cobalt);
+                transition: font-size 0.5s;
             }
 
             & a:visited {
@@ -100,7 +102,7 @@ main {
     flex-direction: column;
     gap: 10vh;
     width: 100%;
-
+    
     /*Container 1*/
 
     & .container1 {
@@ -113,13 +115,17 @@ main {
         background-repeat: no-repeat;
         justify-content: flex-start;
         align-items: center;
+        
+
 
         & .banner_1 {
-            height: 30%;
-            width: 30%;
+            width: 400px;
+            height: 200px;
             margin-left: 6vw;
             margin-right: 6vw;
             position: absolute;
+            transition: height 0.5s, width 0.5s;
+            
             /* background-color: aliceblue; */
         }
     }
@@ -138,15 +144,7 @@ main {
             background-color: var(--cor-cosmic-cobalt);
             height: 15vh;
             width: 100%;
-            /*             border-top: 8px solid var(--cor-white-chocolate);
-                border-bottom: 8px solid var(--cor-white-chocolate);
-                border-image: repeating-linear-gradient(
-                    to right,
-                    #e9ddc8 0,
-                    #e9ddc8 128px,
-                    transparent 128px,
-                    transparent 256px
-                ) 30 round; */
+            
 
             & .hdr1_container2 {
                 display: flex;
@@ -160,10 +158,12 @@ main {
 
                 & h1 {
                     color: var(--cor-white-chocolate);
+                    transition: font-size 0.5s;
                 }
 
                 & img {
                     height: 8vh;
+                    
                 }
             }
 
@@ -186,6 +186,7 @@ main {
 
                 & img {
                     height: 5vh;
+                    transition: height 0.5s;
                 }
             }
         }
@@ -197,24 +198,29 @@ main {
             height: 85vh;
             background-image: url('../assets/Elementos_Graficos/fundo.png');
             background-size: 100% 85vh;
+            background-position: center center;
             background-repeat: no-repeat;
             justify-content: space-around;
             align-items: center;
 
-            & h1 {
-                color: var(--cor-white-chocolate);
-                margin-bottom: 5vh;
-            }
+
+            
 
             & a {
 
                 & div {
                     /* background-color: aquamarine; */
-                    width: 19vw;
+                    width: 23vw;
                     height: 60vh;
                     display: flex;
                     align-items: flex-end;
                     justify-content: center;
+
+                    & h1 {
+                        color: var(--cor-white-chocolate);
+                        margin-bottom: 5vh;
+                        font-size: 20px;
+                    }
                 }
 
             }
@@ -303,12 +309,13 @@ main {
                 justify-content: center;
 
                 & p {
-                    font-size: 25px;
+                    font-size: 20px;
                     color: var(--cor-white-chocolate);
                     text-align: justify;
                     text-indent: 20px;
                     text-overflow: ellipsis;
                     overflow: hidden;
+                    transition: font-size 0.5s;
 
                     & strong {
                         color: var(--cor-dark-vanilla);
@@ -327,8 +334,9 @@ main {
 
 
                 & img {
-                    width: 80%;
-                    height: 60%;
+                    width: 320px;
+                    height: 250px;
+                    transition: height 0.5s, width 0.5s;
                 }
             }
         }
@@ -459,6 +467,7 @@ main {
                     & h1 {
                         text-overflow: ellipsis;
                         overflow: hidden;
+                        font-size: large;
                         /* background-color: var(--cor-dark-vanilla); */
                     }
 
@@ -476,6 +485,7 @@ main {
                         & h1 {
                             text-overflow: ellipsis;
                             overflow: hidden;
+                            font-size: large;
                         }
 
                         & img {
@@ -649,7 +659,7 @@ main {
                         margin-top: 4vh;
 
                         & p {
-                            font-size: large;
+                            font-size: 13px;
                         }
                     }
 
@@ -675,6 +685,273 @@ main {
 
                     & h1 {
                         font-size: 18px;
+                    }
+                }
+
+                & .main_container4 {
+                    flex-direction: column;
+                    height: 80vh;
+                    width: 100%;
+                    justify-content: center;
+                    background-color: var(--cor-cosmic-cobalt);
+                    
+
+                    & .main_txt {
+                        width: 90%;
+                        border-radius: 0px;
+                        align-items: center;
+                        justify-content: center;
+                        height: 120vh;
+
+                        & .main_loc {
+                            align-items: center;
+                            justify-content: center;
+                            height: 25vh;
+                            width: 90%;
+                            
+
+                            & div {
+                                width: 100%;
+                                align-items: center;
+                                justify-content: center;
+
+                                & h1 {
+                                    font-size: 25px;
+                                }
+                            }
+
+                            & p {
+                                font-size: 18px;
+                            }
+                        }
+
+                        & .main_contato {
+                            align-items: center;
+                            justify-content: center;
+                            height: 25vh;
+                            width: 90%;
+
+                            & div {
+                                width: 100%;
+                                align-items: center;
+                                justify-content: center;
+
+                                & h1 {
+                                    font-size: 25px;
+                                }
+                            }
+
+                            & p {
+                                font-size: 18px;
+                            }
+                        }
+
+                        & .main_telefone {
+                            justify-content: center;
+                            gap: 10px;
+                            align-items: center;
+                            height: 10vh;
+                            width: 100%;
+
+                            & h1 {
+                                font-size: 15px;
+                            }
+
+                            & a {
+                                gap: 0px;
+                                width: 300px;
+                                height: 50px;
+
+                                & img {
+                                    height: 25px;
+                                }
+                            }
+                        }
+                    
+                    }
+
+                    & .main_message {
+                        height: 0vh;
+                        width: 0%;
+
+                        & img {
+                            width:  0vw;
+                            height: 0vh;
+                        }
+                    }
+                }
+            }
+    }
+}
+
+/* Smartphones médios (até 768px) */
+@media (min-width: 481px ) and (max-width: 768px) {
+    /* Estilos para a maioria dos celulares */
+
+        header {
+            flex-direction: column;
+            justify-content: center;
+            height: 15vh;
+            width: 100%;
+
+            & .hdr_1 {
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2vh;
+
+                & .logo_text_azul {
+                    /*background-color: brown;*/
+                    height: 4vh;
+                }
+
+
+                & .btns {
+                    
+                    height: 5vh;
+                    gap: 10px;
+
+                    & a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 20px;
+                        color: var(--cor-cosmic-cobalt);
+                    }
+
+                }
+
+            
+        }
+            & .hdr_2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 10vh;
+                /* background-color: antiquewhite; */
+                margin-left: 4vw;  
+                margin-right: 4vw;
+
+                & svg {
+                    width: 0vw;
+                    height: 0vh;
+                }
+                    
+
+                & .pesquisa {
+                    height: 5vh;
+                    width: 75vw;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+        }
+    }
+        main {
+            & .container1 {
+                align-items: center;
+                justify-content: center;
+
+                & .banner_1 {
+                    width: 400px;
+                    height: 200px;
+                }
+            }
+
+            & .container2 {
+                & .hdr_container2 {
+                    
+                    & .hdr1_container2 {
+
+                        & img {
+                            width: 8vw;
+                            height: 8vh;
+                        }
+
+                        & h1 {
+                            font-size: 20px;
+                        }
+                    }
+
+                    & .hdr2_container2 {
+
+                        & img {
+                            height: 4vh;
+                        }
+                    }
+                }
+
+            & .main_container2 {
+                flex-direction: column;
+                height: 100vh;
+                background-size: 280% 100vh;
+
+                & a{
+                    align-items: center;
+
+                    & div {
+
+                        & h1 {
+                            margin-bottom: 1vh;
+                        }
+
+                        width: 80vw;
+                        height: 22vh;
+                    }
+                }
+                }
+
+            }
+
+            & .container3 {
+
+                & .hdr_container3 {
+                    & img {
+                        width: 8vw;
+                        height: 8vh;
+                    }
+
+                    & h1 {
+                        font-size: 20px;
+                    }
+                }
+
+                & .main_container3 {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+
+                    & .txt_sobre {
+                        width: 80vw;
+                        margin-top: 4vh;
+
+                        & p {
+                            font-size: 15px;
+                        }
+                    }
+
+                    & .img_sobre {
+                        
+                        width: 100%;
+
+                        & img {
+                            width: 320px;
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+
+            & .container4 {
+
+                & .hdr_container4 {
+                    & img {
+                        width: 8vw;
+                        height: 8vh;
+                    }
+
+                    & h1 {
+                        font-size: 20px;
                     }
                 }
 
@@ -731,15 +1008,106 @@ main {
                 }
             }
     }
-}
 
-/* Smartphones médios (até 768px) */
-@media (max-width: 768px) {
-    /* Estilos para a maioria dos celulares */
 
 /* Tablets (até 1024px) */
-@media (max-width: 1024px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
     /* Estilos para tablets em modo retrato ou paisagem */
+
+            main {
+            & .container1 {
+                align-items: center;
+                justify-content: flex-start;
+
+                
+            }
+            & .container2 {
+                    
+                    & .main_container2 {
+
+                        & a {
+                            & div {
+                                width: 23vw;
+                                
+                                & h1 {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            & .container3 {
+                    & .main_container3 {
+                        & .txt_sobre {
+                            width: 40%;
+                            height: 80vh;
+
+                            & p {
+                                font-size: 18px;
+                            }
+                        }
+
+                        & .img_sobre {
+                            width: 40%;
+                            height: 80vh;
+
+                            & img {
+                                width: 320px;
+                                height: 250px;
+                            }
+                        }
+                    }
+                }
+            & .container4 {
+                    & .main_container4 {
+                        & .main_txt {
+                            width: 55vw;
+                            height: 85vh;
+
+                            & .main_loc {
+                                width: 45vw;
+                                height: 25vh;
+
+                                & p {
+                                    font-size: 20px;
+                                }
+                            }
+
+                            & .main_contato {
+                                width: 45vw;
+                                height: 25vh;
+
+                                & p {
+                                    font-size: 20px;
+                                }
+                            }
+
+                            & .main_telefone {
+                                width: 45vw;
+                                height: 10vh;
+
+                                & h1 {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+
+                        & .main_message {
+                            width: 35vw;
+                            height: 85vh;
+
+                            & img {
+                                width: 320px;
+                                height: 350px;
+                            }
+                        }
+                    }
+                }
+            }
+
+    
 }
 
 /* Laptops e desktops pequenos */
@@ -750,5 +1118,4 @@ main {
 /* Telas grandes */
 @media (min-width: 1281px) {
     /* Estilos para desktops grandes e monitores widescreen */
-}
 }
