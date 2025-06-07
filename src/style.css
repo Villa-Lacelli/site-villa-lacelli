@@ -203,9 +203,6 @@ main {
             justify-content: space-around;
             align-items: center;
 
-
-            
-
             & a {
 
                 & div {
@@ -231,6 +228,7 @@ main {
                 background-position: center center;
                 background-repeat: no-repeat;
                 border-radius: 20px;
+                transition: transform 0.3s, box-shadow 0.3s;
             }
 
             & .salgados_assados {
@@ -239,6 +237,7 @@ main {
                 background-position: center center;
                 background-repeat: no-repeat;
                 border-radius: 20px;
+                transition: transform 0.3s, box-shadow 0.3s;
             }
 
             & .doces {
@@ -247,6 +246,7 @@ main {
                 background-position: center center;
                 background-repeat: no-repeat;
                 border-radius: 20px;
+                transition: transform 0.3s, box-shadow 0.3s;
             }
 
             & .paes {
@@ -255,8 +255,11 @@ main {
                 background-position: center center;
                 background-repeat: no-repeat;
                 border-radius: 20px;
+                transition: transform 0.3s, box-shadow 0.3s;
             }
+        
         }
+        
     }
 
     /* Container 3 */
@@ -390,7 +393,6 @@ main {
                 height: 85vh;
                 background-color: var(--cor-cosmic-cobalt);
                 color: var(--cor-white-chocolate);
-                border-radius: 0px 40px 40px 0px;
 
                 & .main_loc {
                     display: flex;
@@ -404,6 +406,7 @@ main {
                         text-indent: 20px;
                         text-overflow: ellipsis;
                         overflow: hidden;
+                        transition: font-size 0.5s;
                     }
 
                     & div {
@@ -411,6 +414,10 @@ main {
                         flex-direction: row;
                         align-items: start;
                         gap: 20px;
+                        
+                        & h1 {
+                            transition: font-size 0.5s;
+                        }
 
                         & img {
                             height: 6vh;
@@ -431,6 +438,7 @@ main {
                         text-indent: 20px;
                         text-overflow: ellipsis;
                         overflow: hidden;
+                        transition: font-size 0.5s;
                     }
 
                     & div {
@@ -438,6 +446,10 @@ main {
                         flex-direction: row;
                         align-items: center;
                         gap: 20px;
+
+                        & h1 {
+                            transition: font-size 0.5s;
+                        }
 
                         & img {
                             height: 6vh;
@@ -462,6 +474,7 @@ main {
                         justify-content: center;
                         width: 250px;
                         height: 70px;
+                        transition: font-size 0.5s;
                     }
 
                     & h1 {
@@ -481,15 +494,19 @@ main {
                         height: 70px;
                         border-radius: 20px;
                         background-color: var(--cor-bittersweet);
+                        transition: width 0.5s, height 0.5s;
+                        transition: transform 0.3s, box-shadow 0.3s;
 
                         & h1 {
                             text-overflow: ellipsis;
                             overflow: hidden;
                             font-size: large;
+                            transition: font-size 0.5s;
                         }
 
                         & img {
                             height: 35px;
+                            transition: width 0.5s, height 0.5s;
                         }
                     }
 
@@ -512,10 +529,37 @@ main {
                 & img {
                     width: 35vw;
                     height: 85vh;
+                    transition: width 0.5s, height 0.5s;
                 }
             }
         }
     }
+}
+
+.salgados_fritos:hover {
+    transform: translate(0px, -10px);
+    box-shadow: -1px 24px 28px -11px rgba(0, 0, 0, 0.874);
+
+}
+.salgados_assados:hover {
+    transform: translate(0px, -10px);
+    box-shadow: -1px 24px 28px -11px rgba(0, 0, 0, 0.874);
+    
+}
+.doces:hover {
+    transform: translate(0px, -10px);
+    box-shadow: -1px 24px 28px -11px rgba(0, 0, 0, 0.874);
+    
+}
+.paes:hover {
+    transform: translate(0px, -10px);
+    box-shadow: -1px 24px 28px -11px rgba(0, 0, 0, 0.874);
+    
+}
+
+.btn_whats:hover {
+    transform: translate(0px, -10px);
+    box-shadow: -1px 20px 15px -11px rgba(0, 0, 0, 0.449);
 }
 
 
@@ -758,7 +802,7 @@ main {
                             }
 
                             & a {
-                                gap: 0px;
+                                gap: 5px;
                                 width: 300px;
                                 height: 50px;
 
@@ -1111,11 +1155,129 @@ main {
 }
 
 /* Laptops e desktops pequenos */
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
     /* Ajustes para telas médias e notebooks */
-}
+    main {
+        & .container1 {
+            display: flex;
+            height: 80vh;
+            width: 100%;
+            background-image: url('../assets/Elementos_Graficos/torta-de-ovo-em-madeira 1.png');
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: flex-start;
+            align-items: center;
+            
 
-/* Telas grandes */
-@media (min-width: 1281px) {
-    /* Estilos para desktops grandes e monitores widescreen */
+
+            & .banner_1 {
+                width: 600px;
+                height: 280px;
+                margin-left: 6vw;
+                margin-right: 6vw;
+                position: absolute;
+                transition: height 0.5s, width 0.5s;
+                
+                /* background-color: aliceblue; */
+            }
+        }
+
+        & .container2 {
+            display: flex;
+            flex-direction: column;
+
+            & .main_container2 {
+
+                & a {
+                    & div {
+                        & h1 {
+                            font-size: 30px;
+                        }
+                    }
+
+                }
+
+                & .salgados_fritos {
+                    background-image: url('../assets/Produtos/fritos.png');
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 20px;
+                }
+
+                & .salgados_assados {
+                    background-image: url('../assets/Produtos/empadinha.png');
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 20px;
+                }
+
+                & .doces {
+                    background-image: url('../assets/Produtos/doce.png');
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 20px;
+                }
+
+                & .paes {
+                    background-image: url('../assets/Produtos/pao.png');
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+         & .container3 {
+            display: flex;
+            flex-direction: column;
+
+            & .hdr_container3 {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                /* background-color: var(--cor-cosmic-cobalt); */
+                height: 15vh;
+                width: 100%;
+
+                & div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-left: 6vw;
+                    margin-right: 6vw;
+                    gap: 20px;
+                    color: var(--cor-cosmic-cobalt);
+
+                    & img {
+                        height: 8vh;
+
+                    }
+                }
+            }
+
+            & .main_container3 {
+
+                & .txt_sobre {
+                    & p {
+                        font-size: 30px;
+                    }
+                }
+
+                & .img_sobre {
+    
+                    & img {
+                        width: 450px;
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
 }
