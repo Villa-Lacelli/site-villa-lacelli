@@ -542,7 +542,9 @@ main {
             }
         }
     }
+
 }
+
 
 .salgados_fritos:hover {
     transform: translate(0px, -10px);
@@ -570,6 +572,88 @@ main {
     box-shadow: -1px 20px 15px -11px rgba(0, 0, 0, 0.449);
 }
 
+footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 50vh;
+        padding-top: 20px;
+        transition: height 0.5s;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & img {
+                    transition: width 0.5s, height 0.5s;
+                }
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                        transition: font-size 0.5s;
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    & a{
+                        transition: font-size 0.5s;
+                        font-size: 20px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+
+            .footer_map {
+                
+                & img {
+                    transition: width 0.5s, height 0.5s;
+                }
+            }
+        }
+
+        & .footer_copy {
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
+            transition: font-size 0.5s;
+        }
+}
 
 @media (max-width: 480px) {
     /* Estilos para celulares muito pequenos */
@@ -838,6 +922,92 @@ main {
                 }
             }
     }
+
+        footer {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 35vh;
+        padding-top: 20px;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & .footer_logo {
+                    width: 100px;
+                    height: 25px;
+                }
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 5px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+
+                        font-size: 6px;
+
+                        & img {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+
+                    & a{
+                        font-size: 10px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+
+            & .footer_map {
+                & img {
+                    width: 100px;
+                    height: 90px;
+                }
+            }
+        }
+
+        & .footer_copy {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
+            font-size: 10px;
+        }
+    }
 }
 
 /* Smartphones médios (até 768px) */
@@ -1064,6 +1234,90 @@ main {
                 }
             }
     }
+        footer {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 45vh;
+        padding-top: 20px;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & .footer_logo {
+                    width: 160px;
+                    height: 40px;
+                }
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+
+                        font-size: 8px;
+
+                        & img {
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    & a{
+                        font-size: 12px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+
+            & .footer_map {
+                & img {
+                    width: 160px;
+                    height: 150px;
+                }
+            }
+        }
+
+        & .footer_copy {
+            text-align: center;
+            font-size: 13px;
+            padding: 20px 0;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
+        }
+    }
 
 
 /* Tablets (até 1024px) */
@@ -1182,6 +1436,85 @@ main {
                 }
             }
             }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 50vh;
+        padding-top: 20px;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & .footer_logo {
+                    width: 180px;
+                    height: 50px;
+                }
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    & a{
+                        font-size: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+
+            & .footer_map {
+                & img {
+                    width: 200px;
+                    height: 190px;
+                }
+            }
+        }
+
+        & .footer_copy {
+            text-align: center;
+            font-size: 15px;
+            padding: 20px 0;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
+        }
+    }
 
     
 }
@@ -1212,6 +1545,85 @@ main {
                 }
             }
         }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 55vh;
+        padding-top: 20px;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & .footer_logo {
+                    width: 180px;
+                    height: 50px;
+                }
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    & a{
+                        font-size: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+
+            & .footer_map {
+                & img {
+                    width: 200px;
+                    height: 190px;
+                }
+            }
+        }
+
+        & .footer_copy {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
+        }
+    }
 
 }
 /* Laptops e desktops pequenos */
@@ -1338,6 +1750,73 @@ main {
                     }
                 }
             }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--cor-dark-vanilla);
+        margin-top: 20px;
+        height: 50vh;
+        padding-top: 20px;
+
+
+        & .footer_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            & .footer_info {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                & div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    & div {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 15px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+                }
+            }
+
+            & .footer_btns {
+                
+                & .btns {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    & a{
+                        font-size: 20px;
+                        color: var(--cor-cosmic-cobalt);
+                        font-family: var(--font-petrona);
+                    }
+
+                }
+            }
+        }
+
+        & .footer_copy {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--cor-cosmic-cobalt);
+            font-family: var(--font-petrona);
         }
     }
 }
